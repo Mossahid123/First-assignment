@@ -21,7 +21,7 @@ body{
 #headding2{
     color: red;
 }
-.mission h1{
+.mission-div h1{
     text-align: center;
     font-size: 60px;
 }
@@ -29,30 +29,30 @@ body{
     color: red;
     font-size: 60px;
 }
-.illustrator-culum {
-    width: 100%;
-    display: flex;
-    padding: 40px;
+.goals-column {
+   display:flex;
+   flex-direction: row;
+   margin: 10px;
 }
-.illustrator1{
-    width: 30%;
+.mission{
     padding: 30px;
     margin: 20px;
     border-radius: 30px;
     background-color: slategrey;
 
 }
-.illustrator1 h1{
+.mission h1{
     text-align: left;
 }
-.illustrator1 img{
-    height: 200px;
-    width: 150px;
+.mission img{
+    height: 250px;
+    width: 200px;
+    margin-left: 90px;
+    
 }
 
 
 .illustrator2{
-    width: 30%;
     padding: 30px;
     background-color: honeydew;
     margin: 20px;
@@ -66,7 +66,6 @@ body{
     width: 150px;
 }
 .illustrator3{
-    width: 30%;
     padding: 30px;
     background-color: khaki;
     margin: 20px;
@@ -83,19 +82,20 @@ body{
     display: flex;
     background-color: rgb(250, 244, 244);
     margin-bottom: 50px;
-    background-image: url(images/shape-1.png);
     background-size: 200px;
     background-position: left;
     background-repeat: no-repeat;
+    margin-top: 20px;
 }
-.islamic-image1{
+.jobs-image1{
     width: 50%;
     text-align: right;
     padding-right: 170px;
+    margin-top: 90px;
 }
-.islamic-image1 img{
-    height:500px;
-    width: 400px;
+.jobs-image1 img{
+    height:400px;
+    width: 500px;
     border-radius: 40px;
     padding-top: 10px;
 }
@@ -125,11 +125,11 @@ body{
     text-decoration: none;
     color: white;
 }
-.islamic-image2{
+.dev-image2{
     width: 50%;
     padding: 8%;
 }
-.islamic-image2 img{
+.dev-image2 img{
     height:500px;
     width: 550px;
     border-radius: 40px;
